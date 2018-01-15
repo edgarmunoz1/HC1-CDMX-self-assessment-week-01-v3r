@@ -27,11 +27,13 @@ MDN
   *   var leaf7 = branch3.addChild(7);
   *   var newTree = root1.map(function (value) {
   *     return value * 2;
-  *   })
-  *  newTree.value // 2
-  *  newTree.children[0].value // 4
+  *   })newTree.value // 2
+     var root2 = new Tree(2)
+     var children = [];
+     newTree.children[0].value // 4
   *  newTree.children[1].value // 6
   *  newTree.children[0].children[1].value // 10
   *  newTree.children[1].children[1].value // 14
   *  root1.value // still 1
   */
+     var branch1 = root2.addChild()
